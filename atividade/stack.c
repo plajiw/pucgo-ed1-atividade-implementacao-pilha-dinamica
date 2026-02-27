@@ -28,7 +28,7 @@ int top(Stack *p)
 
 void makeEmpty(Stack *p)
 {
-    while(!isEmpty(p))
+    while (!isEmpty(p))
         pop(p);
 }
 
@@ -82,7 +82,7 @@ int size(Stack *p)
 void printStack(Stack *p)
 {
     Node *aux = p->top;
-    while(aux != NULL)
+    while (aux != NULL)
     {
         printf("%d\n", aux->value);
         aux = aux->next;

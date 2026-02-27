@@ -3,8 +3,9 @@
 #ifndef STACK_H
 #define STACK_H
 
-typedef struct {
-    Node* top;
+typedef struct
+{
+    Node *top;
     int size;
 } Stack;
 
