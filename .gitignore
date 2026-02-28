@@ -1,55 +1,49 @@
-# Prerequisites
+*.exe
+*.out
+*.app
+*.bin
 *.d
-
-# Object files
+*.dep
 *.o
 *.ko
 *.obj
 *.elf
-
-# Linker output
+*.o.d
 *.ilk
 *.map
 *.exp
-
-# Precompiled Headers
+*.res
 *.gch
 *.pch
-
-# Libraries
 *.lib
 *.a
 *.la
 *.lo
-
-# Shared objects (inc. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
+*.iobj
+*.ipdb
+*.log
+*.tlog
 *.dwo
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.history/
+*~
+*.tmp
+*.temp
+*.swp
+*.bak
+[Bb]uild/
+[Oo]ut/
+[Dd]ebug/
+[Rr]elease/
+bin/

@@ -1,7 +1,8 @@
-#include <stdbool.h>
-#include "node.c"
 #ifndef STACK_H
 #define STACK_H
+
+#include <stdbool.h>
+#include "node.h"
 
 typedef struct
 {
